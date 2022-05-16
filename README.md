@@ -1,24 +1,29 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on Rails Sample App
 
-Things you may want to cover:
+## 使い方
 
-* Ruby version
+### gemのインストール
 
-* System dependencies
+```
+$ bundle install
+```
 
-* Configuration
+### DBのマイグレーション
 
-* Database creation
+```
+$ bundle exec rails db:migrate
+```
 
-* Database initialization
+### テスト
 
-* How to run the test suite
+```
+$ bundle exec rails test
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+### Railsサーバーの立ち上げ
 
-* Deployment instructions
-
-* ...
+```
+$ bundle exec rails server
+```
